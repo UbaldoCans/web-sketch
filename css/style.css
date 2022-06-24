@@ -179,6 +179,10 @@ article p{
     font-size: 18px;
     color: #3c3c3c;
 }
+article p a{
+    font-size: 20px;
+    color: #734cea;
+}
 article img{
     width: 100%;
     margin-top: 20px;
