@@ -109,6 +109,10 @@ header{
     background-repeat: no-repeat;
     
 }
+.container-cover img{
+    height: 300px;
+
+}
 .container-cover:before{
     content: '';
     width: 100%;
@@ -141,6 +145,13 @@ header{
     font-size: 20px;
     font-weight: 300;
 }
+.container-cover .container-info-cover .image-me{
+    height: auto;
+    width: 300px;
+    padding-left: 1000px;
+    padding-bottom: 50px;
+}
+
 /*.................................articulo izquierdo...............................................................................*/
 .container-content{
     width: 1000px;
@@ -306,7 +317,7 @@ article img{
     .header-content,
     .container-content,
     .container-footer footer{
-        max-width: 900px;
+        max-width: 1000px;
         padding: 0 20px;
     }
     
@@ -362,10 +373,10 @@ article img{
      .menu nav ul li{
         max-width: 200px;
         height: 50px;
-        justify-content: center;
+        justify-content: flex-start;
      }
      .menu nav ul li a{
-      
+        margin-top: 40px;
         color: #858585;
      }
      .menu nav ul li a i{
