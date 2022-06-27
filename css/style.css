@@ -393,3 +393,17 @@ article img{
      }
      
 }
+@media screen and (max-width: 400px){
+   .container-content article{
+    max-width: 300px;
+    display: inline;
+   }
+   .social-network{
+    justify-content: center;
+   }
+   .container-footer footer .social-network{
+      display: block;
+      margin: auto;
+   }
+   
+}
