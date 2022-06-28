@@ -66,6 +66,7 @@ header{
 .menu nav{
     height: 100%;
 }
+  
 .menu nav ul{
     height: 100%;
     display: flex;
@@ -395,7 +396,7 @@ article img{
 }
 @media screen and (max-width: 400px){
    .container-content article{
-    max-width: 300px;
+    max-width: 320px;
     display: inline;
    }
    .social-network{
