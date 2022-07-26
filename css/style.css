@@ -311,7 +311,15 @@ article img{
     background: #b9b8b8;
 }
 
-
+.form-floating{
+    background: rgb(221, 237, 244);
+    width: 60%;
+    padding: 10px;
+    padding-bottom: 40px;
+   
+    overflow: hidden;
+   
+}
 
 /*..................................resposnsive design.....................................................*/
 @media screen and (max-width: 1220px) {
