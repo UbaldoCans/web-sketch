@@ -424,3 +424,11 @@ article img{
    }
    
 }
+
+/*like button */
+
+#like_button_container{
+    -ms-flex-direction: column;
+    background-position: fixed;
+
+}
